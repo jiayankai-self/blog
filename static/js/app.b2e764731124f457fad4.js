@@ -15908,7 +15908,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, _vm._l((_vm.docList), function(item) {
     return _c('section', {
       key: item.name
-    }, [_c('header', [_c('span', [_vm._v(_vm._s(item.name))]), _vm._v(" "), _vm._l((item.tags), function(tag) {
+    }, [_c('header', [_c('a', {
+      attrs: {
+        "href": item.url,
+        "target": "_blank"
+      }
+    }, [_vm._v(_vm._s(item.name))]), _vm._v(" "), _vm._l((item.tags), function(tag) {
       return _c('el-tag', {
         key: tag,
         attrs: {
@@ -69815,4 +69820,4 @@ module.exports = __webpack_require__(83);
 
 /***/ })
 ],[201]);
-//# sourceMappingURL=app.db48e607661accdcd5a0.js.map
+//# sourceMappingURL=app.b2e764731124f457fad4.js.map
