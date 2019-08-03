@@ -15886,14 +15886,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+var docBaseUrl = './public/md';
+
 var docList = [{
   name: '文本选择及操作',
   tags: ['Javascript'],
-  url: '/public/md/textSelect/'
+  url: docBaseUrl + '/textSelect/'
 }, {
   name: 'CSS权重分析',
   tags: ['CSS'],
-  url: '/public/md/cssHeight/'
+  url: docBaseUrl + '/cssHeight/'
 }];
 
 /* harmony default export */ __webpack_exports__["a"] = (docList = docList);
@@ -69820,4 +69822,4 @@ module.exports = __webpack_require__(83);
 
 /***/ })
 ],[201]);
-//# sourceMappingURL=app.b2e764731124f457fad4.js.map
+//# sourceMappingURL=app.3952e1065fc26b5f5071.js.map
